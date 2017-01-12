@@ -3,7 +3,7 @@ import sys
 from PyQt4 import QtGui
 from PyQt4 import QtCore
 
-class TooTip(QtGui.QWidget):
+class ToolTip(QtGui.QWidget):
     def __init__(self, parent=None):
         QtGui.QWidget.__init__(self, parent)
 
@@ -15,7 +15,7 @@ class TooTip(QtGui.QWidget):
 
 app = QtGui.QApplication(sys.argv)
 
-tooltip = TooTip()
+tooltip = ToolTip()
 tooltip.show()
 
 sys.exit(app.exec_())
