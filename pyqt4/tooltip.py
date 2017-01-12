@@ -8,7 +8,7 @@ class ToolTip(QtGui.QWidget):
         QtGui.QWidget.__init__(self, parent)
 
         self.setGeometry(300, 300, 250, 150)
-        self.WindowTitle("ToolTip")
+        self.setWindowTitle("ToolTip")
 
         self.setToolTip("This is a <b>QWidget</b> widget")
         QtGui.QToolTip.setFont(QtGui.QFont("OldEnglish", 10))
